@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap');
+
+body {       
+    color: white;
+    background-color: rgb(37, 37, 37);
+    margin: 0;
+}
+
+.navbar {
+    height: 4rem;
+    background-color: rgb(131, 199, 29)!important;
+}
+
+.navbar-brand {
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 1.2px;
+    text-decoration: none;
+    color: black;
+}
+
+.sub {
+    margin: 20px;
+    display: flex;
+}
+
+.sub-one {
+    display: flex;
+    width: 50%;
+}
+
+.vl {
+    margin-top: 10px;
+    border-left: 1px solid white;
+    height: 65%;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+}
+
+.sub-two {
+    width: 50%;
+}
+
+.plant-img {
+    margin-top: 50px;
+    height: 20rem;
+}
+
+.image-section, .img-responsive {    
+    border-radius: 8px; 
+    margin-left: 10px;
+    height: 170px !important;
+    width: 185px !important;
+}
+
+h2, .upl {
+    margin-top: 1.15rem;
+    padding-left: 30px;
+    font-weight: 600;
+    font-family: 'Inconsolata', monospace;
+    font-size: 2rem;
+    color: rgb(131, 199, 29);   
+}
+
+.intro-content {
+    padding-top: 1.7rem;
+    padding-left: 1.2rem;
+    font-family: 'Inconsolata', monospace;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+#imageUpload, .btn {
+    font-family: 'Inconsolata', monospace;
+    font-weight: bold;
+    border: none;
+    color: rgb(37, 37, 37);
+    background-color: rgb(131, 199, 29);
+}
+
+.btn:hover {
+    color: rgb(37, 37, 37);
+    background-color: rgb(153, 235, 30);
+}
+
+.result-img {
+    max-width: 100%;
+    height: 300px;
+    object-fit: contain;
+    border: 1px solid #ddd;
+    padding: 5px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 8px rgba(0,0,0,0.1);
+}
+
+.go-back-btn {
+    margin: 30px auto 0 auto;
+    display: block;
+    width: fit-content;
+}
+
+.right-content {
+    padding-bottom: 80px; /* Increased padding to avoid footer overlap */
+}
+
+footer {
+    height: 5rem;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.foot {
+    font-family: 'Inconsolata', monospace;
+    background-color: rgb(131, 199, 29)!important;
+    color: black;
+    text-align: center;
+    padding: 30px 0;
+}
+
+/* Mobile Styles */
+@media (max-width: 480px) {
+    .navbar {
+        overflow: hidden;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        z-index: 1000;
+    }
+
+    .sub {
+        margin-top: 4.5rem;
+        display: block;
+        margin: 0px;
+        padding: 10px;
+    }
+
+    .sub-one {
+        width: 100%;
+    }
+
+    .sub-one-one {
+        display: none;
+    }
+
+    .vl {
+        display: none;
+    }
+
+    .sub-two {
+        width: 100%;
+    }
+
+    .upl {
+        padding-left: 0px;
+        margin-top: 3.5rem;
+    }
+
+    .image-section, .img-responsive { 
+        border-radius: 8px;   
+        margin-left: 0px;
+        height: 160px !important;
+        width: 165px !important;
+    }
+
+    #imageUpload, .btn {
+        margin-left: 0rem;
+    }
+
+    .btn {
+        margin-top: 10px;
+    }
+
+    .plant-img {
+        margin-top: 0px;
+        height: 20rem;
+    }
+
+    .right-content {
+        padding-bottom: 100px; /* Extra padding for mobile */
+    }
+
+    footer {
+        height: 3.5rem;
+    }
+
+    .foot {
+        padding-top: 8px;
+    }
+}

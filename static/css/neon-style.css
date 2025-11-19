@@ -1,0 +1,116 @@
+body {
+    background: linear-gradient(145deg, #0f0f2d, #1a1a3c);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+}
+
+.navbar {
+    background: transparent;
+    border-bottom: 1px solid #2a2a5f;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+    text-shadow: 0 0 5px #00f5ff, 0 0 10px #00f5ff;
+}
+
+.sub {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 20px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.02);
+    box-shadow: 0 0 15px rgba(0, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+}
+
+.sub-one, .sub-two {
+    flex: 1;
+    margin: 20px;
+}
+
+.plant-img {
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 0 10px #00ff88, 0 0 20px #00ff88;
+}
+
+h2, h3 {
+    text-shadow: 0 0 5px #ffffff, 0 0 10px #00f5ff;
+}
+
+.intro-content {
+    font-size: 18px;
+    color: #e0e0e0;
+}
+
+.steps {
+    display: inline-block;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.05);
+    padding: 10px 15px;
+    border-radius: 15px;
+    text-shadow: 0 0 3px #00ffff;
+    box-shadow: 0 0 8px #00ffff;
+}
+
+.vl {
+    border-left: 2px solid #444;
+    height: 100%;
+    margin: 0 20px;
+}
+
+#imageUpload {
+    background: transparent;
+    color: #00ffcc;
+    border: 2px dashed #00f5ff;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+    margin-top: 15px;
+    box-shadow: 0 0 10px #00f5ff;
+}
+
+button {
+    background: linear-gradient(90deg, #00f5ff, #00ffa2);
+    border: none;
+    border-radius: 10px;
+    padding: 12px 20px;
+    font-weight: bold;
+    color: black;
+    margin-top: 15px;
+    box-shadow: 0 0 10px #00f5ff, 0 0 20px #00ffa2;
+    transition: transform 0.2s ease;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+#result {
+    margin-top: 30px;
+    padding: 15px;
+    border-radius: 15px;
+    background: rgba(0, 255, 170, 0.1);
+    box-shadow: 0 0 10px #00ffa2;
+    font-size: 22px;
+    text-align: center;
+}
+
+.img-responsive {
+    max-width: 100%;
+    border-radius: 15px;
+    box-shadow: 0 0 10px #00ff88;
+}
+
+footer .foot {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 16px;
+    color: #ccc;
+    text-shadow: 0 0 3px #00f5ff;
+}

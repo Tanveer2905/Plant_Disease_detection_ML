@@ -1,0 +1,76 @@
+<html lang="en"></html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Plant Disease Prediction</title>
+    <link href="{{ url_for('static', filename='css/bootstrap.min.css') }}" rel="stylesheet"> 
+    <script src="{{ url_for('static', filename='js/jquery.min.js') }}"></script> 
+    <script src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>     
+    <link href="{{ url_for('static', filename='css/test.css') }}" rel="stylesheet">
+    <script src="{{ url_for('static', filename='js/newjs.js') }}" type="text/javascript"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">PLANT DISEASE PREDICTION</a>
+        </div>
+    </nav>
+
+    
+        <div class="sub">
+            <div class="sub-one">
+                <div class="sub-one-one">
+                    <img src="../static/images/plant-2.png" alt="plant-image" class="plant-img">
+                </div>
+                <div class="sub-two-two">
+                    <br><h2>Plant Disease Diagnosis</h2><br>
+                    <p class="intro-content">Is your plant is affected by unknown disease?<br>
+                        <span class="dont-worry">Dont Worry 😀</span> <br> <br>
+                    
+                        <span class="steps"> 
+                        📸 Upload the infected part of your plant<br>
+                        <br class="middle"> ✅ Get to know the name of the Disease<br> <br class="middle">
+                        ❗ Take neccessary actions 
+                        </span> 
+                    </p>           
+                </div>
+            </div>
+            <div class="vl"></div>
+            <div class="sub-two">
+                
+                <h2 class="upl">Upload Plant Image</h2>
+                <form action="/" method="POST" enctype="multipart/form-data">
+                    <input type="file" name="file" class="btn btn-success" id="imageUpload" accept="image/*" required><br><br>
+                    <div style="margin-left: 20px;" class="image-section" style="display:none;">
+                        <img id="imagePreview"  class="img-responsive" src="#"/><br><br>
+                    </div>
+                    <button style="margin-left: 30px;" class="btn btn-info btn-lg " id="btn-predict" type="submit">Predict!</button>
+                </form>
+        
+        
+                
+        
+                <div class="loader" style="display:none;"></div>
+        
+                <h3 id="result">
+                    <span> </span>
+                </h3>
+            </div>
+        </div>
+        
+       
+
+</body>
+
+<footer>
+    <div class="foot">
+    <b>Developed By TECHMAGES</b>
+
+    </div>
+
+</footer>
+
+</html>
