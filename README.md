@@ -87,6 +87,9 @@ models/
 
 │── svm_model.pkl
 
+
+Download Dataset: https://www.kaggle.com/datasets/vipoooool/new-plant-diseases-dataset
+
 📂 Project Structure
 Plant-Disease-Detection/
 
