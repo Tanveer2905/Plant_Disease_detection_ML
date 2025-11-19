@@ -72,31 +72,46 @@ place all extracted files inside: /models/
 Expected model files:
 
 models/
+
 │── cnn_model.keras
+
 │── resnet_model.keras
+
 │── mobilenet_model.keras
+
 │── final_vgg16_model.h5
+
 │── xgb_model.pkl
+
 │── random_forest.pkl
+
 │── svm_model.pkl
 
 📂 Project Structure
 Plant-Disease-Detection/
+
 │── predict.py
+
 │── models/
+
 │── dataset/
+
 │── leaf_disease_segmentation_model.h5
+
 │── static/
+
 │    └── uploads/
+
 │── templates/
+
 │    ├── upload.html
+
 │    └── result.html
+
 │── README.md
 
 ⚙️ Installation
 1. Clone the repository
-git clone https://github.com/your-username/your-repo.git
-cd your-repo
 
 2. Create virtual environment
 python -m venv venv
@@ -104,7 +119,6 @@ source venv/bin/activate        # Linux/Mac
 venv\Scripts\activate           # Windows
 
 3. Install dependencies
-pip install -r requirements.txt
 
 ▶️ Running the Application
 
